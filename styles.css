@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  background-color: #FEFAE0;
+  opacity: 0.8;
+  background-image:  radial-gradient(#A6B37D 1.5px, transparent 1.5px), radial-gradient(#A6B37D 1.5px, #FEFAE0 1.5px);
+  background-size: 60px 60px;
+  background-position: 0 0,30px 30px;
+}
+
+h2 {
+  font-family: 'Turret Road', sans-serif;
+  margin:  2%;
+  color: #000000;
+}
+
+footer {
+  color: #532300;
+  font-size: 15px;
+  margin: 2%;
+  font-family: 'Turret Road', sans-serif;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 3rem;
+  margin:  2%;
+  color: #532300;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.btn-reset {
+  align-items: center;
+  background-color: #F6FCDF;
+  background-position: 0 0;
+  border: 1px solid #d2d7be;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #31511E;
+  cursor: pointer;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 4px 25px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.btn-reset:active,
+.btn-reset:hover,
+.btn-reset:focus {
+  outline: 0;
+}
+
+
+.btn-reset:active {
+  background-color: #31511E;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.btn-reset:hover {
+  background-color: #F6FCDF;
+  border-color: #859F3D;
+}
+
+.btn-reset:active:hover,
+.btn-reset:focus:hover,
+.btn-reset:focus {
+  background-color: #31511E;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
