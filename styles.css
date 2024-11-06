@@ -7,24 +7,39 @@ body {
   background-position: 0 0,30px 30px;
 }
 
+h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 3rem;
+  margin:  2%;
+  color: #532300;
+}
+
 h2 {
   font-family: 'Turret Road', sans-serif;
   margin:  2%;
   color: #000000;
 }
 
-footer {
-  color: #532300;
-  font-size: 15px;
+#instruction {
+  color: #31511E;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5;
   margin: 2%;
   font-family: 'Turret Road', sans-serif;
 }
 
-#level-title {
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 3rem;
-  margin:  2%;
+footer {
   color: #532300;
+  font-size: 15px;
+  margin: 0.5%;
+  font-family: 'Turret Road', sans-serif;
+}
+
+.text {
+  display: block;
+  width: 80%;
+  margin: auto;
 }
 
 .container {
